@@ -26,15 +26,43 @@ header {
     color: grey;
   }
 }
-
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
 }
 .counter {
-    width: 800px;
+  width: 800px;
+}
+
+@mixin details {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 10px;
+}
+.details {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .details__open {
+    @include details;
+  }
+  .details__reservation {
+    @include details;
+  }
+  .details__address {
+    @include details;
+  }
+}
+
+.map {
+  width: 800px;
+  height: 400px;
 }
