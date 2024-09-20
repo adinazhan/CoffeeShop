@@ -109,3 +109,55 @@ footer {
   display: flex;
   font-size: 1.5rem;
 }
+
+.main__third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general {
+  color: e2e8e8;
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+
+  .general__details {
+    font-size: smaller;
+  }
+}
+
+@mixin box {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #b9bebe;
+  margin-bottom: 20px;
+}
+.coffee {
+  color: e2e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .coffee__first,
+  .coffee__second,
+  .coffee__third,
+  .coffee__fourth {
+    @include box;
+  }
+}
+
+.coffee img {
+  width: 100%;
+}
+.ingredients {
+  font-style: italic;
+}
+.description {
+  padding: 10px;
+}
