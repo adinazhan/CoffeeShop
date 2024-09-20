@@ -10,7 +10,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
 }
-img {
+.logo {
   width: 130px;
   height: 130px;
   margin-left: 50px;
@@ -25,4 +25,16 @@ img {
   a {
     color: grey;
   }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+.counter {
+    width: 800px;
 }
