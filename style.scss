@@ -1,3 +1,5 @@
+
+
 html {
   width: 100vw;
   height: 100vh;
@@ -37,6 +39,7 @@ header {
 .counter {
   width: 800px;
 }
+
 
 @mixin details {
   color: grey;
@@ -161,3 +164,25 @@ footer {
 .description {
   padding: 10px;
 }
+ .general{
+    display: flex;
+    justify-content: end;
+    width: 80.7%;
+ }
+
+ @media(max-width: 800px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo__img img{
+        margin: 0;
+    }
+    .logo__img{
+        height: 80%;
+    }
+    .navigation{
+        margin-left: 10%;
+    }
+ }
