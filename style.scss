@@ -1,3 +1,6 @@
+*{
+    border: 1px solid red;
+}
 html {
   width: 100vw;
   height: 100vh;
@@ -28,13 +31,234 @@ header {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20px;
+
 }
 .counter {
     width: 800px;
+}
+
+
+footer{
+    background-color: #353A3F;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    color: white;
+
+    a{
+        color: #3F7DC8
+    }
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 2rem;
+    
+
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    gap: 1rem;
+
+}
+.hashtag{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.menu__section{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+
+.menu__name{
+    font-size: 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    
+}
+
+.espresso__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+    
+
+}
+.espresso__title{
+    font-size: 1.5rem;
+}
+
+.iced__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+}
+
+.iced__title{
+    font-size: 1.5rem;
+}
+
+.filter__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+}
+
+.filter__title{
+    font-size: 1.5rem;
+}
+
+.hot__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+}
+
+.hot__title{
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0;
+    gap: 1rem;
+}
+
+.nonalco__section{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+
+.nonalco__name{
+    font-size: 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.columns2{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    
+}
+
+.lemonades__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+    
+
+}
+.lemonades__title{
+    font-size: 1.5rem;
+}
+
+
+.water__prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-bottom: 5rem;
+}
+
+.water__title{
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0;
+    gap: 1rem;
+}
+
+.espresso__machine img{
+    display: flex;
+    width: 80%;
+    height: 100%;
+
+}
+
+.espresso__machine{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3%;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 800px){
+    .nonalco__section{
+        display: none;
+    }
+    .column2{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo__img img{
+        margin: 0;
+        
+    }
+
+    .logo__img{
+        height: 80%;
+    }
+
+    .navigation{
+        margin-left: 10%;
+    }
 }
