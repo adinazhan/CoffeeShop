@@ -1,0 +1,49 @@
+*{
+    border: 1px solid red;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+footer{
+    background-color: #353A3F;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    color: white;
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 2rem;
+    
+
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    gap: 1rem;
+
+}
+.hashtag{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+a{
+    color: #3F7DC8
+}
